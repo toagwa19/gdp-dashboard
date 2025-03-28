@@ -14,10 +14,6 @@ genai.configure(api_key=API_KEY)
 
 # --- Streamlit UI ---
 st.title("🤖 BIPROGY チャットボット")
-model = genai.GenerativeModel("gemini-2.5-pro-exp-03-25")            
-response = model.generate_content("武田さんに向けて、拝啓付の挨拶を200文字以内で記載して")
-st.subheader("")
-st.write(response.text if hasattr(response, 'text') else "応答が取得できませんでした。")
 
 st.write("")
 st.write("Google Gemini API(2.5 pro) を使用したチャットボット")
