@@ -15,7 +15,7 @@ genai.configure(api_key=API_KEY)
 # --- Streamlit UI ---
 st.title("🤖 BIPROGY チャットボット")
 
-st.write("武田さん、こんにちは～～へ（*^^*へ）")
+st.write("皆さん、こんにちは～～へ（*^^*へ）")
 st.write("Google Gemini API(2.5 pro) を使用したチャットボット")
 
 # ユーザーの入力
